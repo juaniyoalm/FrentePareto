@@ -8,7 +8,7 @@ import java.util.TreeMap;
 public class EntradaSalida {
 
 	public EntradaSalida() {
-
+		// Método que gestionará la entrada y salida de datos
 	}
 
 	public TreeMap<Integer, String[]> readFile() {
@@ -43,6 +43,7 @@ public class EntradaSalida {
 			// En el finally cerramos el fichero, para asegurarnos
 			// que se cierra tanto si todo va bien como si salta
 			// una excepcion.
+			
 			try {
 				if (null != fr) {
 					fr.close();
