@@ -22,13 +22,13 @@ public class Pincipal {
 		
 		for(Entry<Integer, String[]> entry : data.entrySet()) {
 			String[] value = entry.getValue();
-			int clave = Integer.valueOf(value[1]);
-			int valor = Integer.valueOf(value[0]);
+			int clave = Integer.parseInt(value[1]);
+			int valor = Integer.parseInt(value[0]);
 			  
 			if (!fPareto.containsKey(clave)) {
 				fPareto.put(clave, valor);
 			} else {
-				if (fPareto.get(clave) < Integer.valueOf(valor)) {
+				if (fPareto.get(clave) < valor) {
 					fPareto.put(clave, valor);
 				}
 			}
