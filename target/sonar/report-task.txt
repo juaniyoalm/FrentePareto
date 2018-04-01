@@ -2,5 +2,5 @@ projectKey=FrentePareto:FrentePareto
 serverUrl=http://192.168.65.181
 serverVersion=7.0.0.36138
 dashboardUrl=http://192.168.65.181/dashboard/index/FrentePareto:FrentePareto
-ceTaskId=AWJEmgFBIf-xwbvqPuUf
-ceTaskUrl=http://192.168.65.181/api/ce/task?id=AWJEmgFBIf-xwbvqPuUf
+ceTaskId=AWKCVCEmIf-xwbvqPuWZ
+ceTaskUrl=http://192.168.65.181/api/ce/task?id=AWKCVCEmIf-xwbvqPuWZ

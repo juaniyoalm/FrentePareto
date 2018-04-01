@@ -21,7 +21,6 @@ public class Pincipal {
 	private static void getFrentePareto(TreeMap<Integer, String[]> data) {
 		
 		for(Entry<Integer, String[]> entry : data.entrySet()) {
-			  //Integer key = entry.getKey();
 			String[] value = entry.getValue();
 			int clave = Integer.valueOf(value[1]);
 			int valor = Integer.valueOf(value[0]);
