@@ -40,13 +40,6 @@ public class EntradaSalida {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-<<<<<<< HEAD
-=======
-			// En el finally cerramos el fichero, para asegurarnos
-			// que se cierra tanto si todo va bien como si salta
-			// una excepcion.
-			
->>>>>>> branch 'master' of https://github.com/juaniyoalm/FrentePareto.git
 			try {
 				if (null != fr) {
 					fr.close();
